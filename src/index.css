@@ -1,0 +1,118 @@
+/* Entire Page */
+.myPage {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Card */
+.card{
+    width: 100%;
+    background-color: #191b20;
+    color: white;
+}
+
+
+/* Info Box Section */
+.infoBox{
+    background-color: #191b20;
+}
+
+.infoBox > h1{
+    color:white;
+    text-align: center;
+}
+
+.infoBox > p{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.infoBox > p > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons-div > button{
+    background-color: white;
+    text-align: center;
+}
+
+.buttons-div, .nicHeadshotDiv{
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.linkedin--div, .email--div{
+    display:grid;
+    grid-template-columns: 30px 100px;
+    grid-gap: 10px;
+    padding: 10px 20px;
+    background-color: #0174b2;
+    border-radius: 10px;
+}
+
+.email--div{
+    background-color: white;
+}
+
+.linkedin--logo, .email--logo{
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin--button, .email--button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.email--button{
+    color: black !important;
+}
+
+.nicHeadshot{
+    width:100%;
+}
+
+.jobTitle{
+    color: #0174b2!important;
+}
+
+/* About Us Section */
+.aboutBox{
+    padding: 50px 50px 0px;
+    width: 90%;
+    text-align: center;
+}
+
+
+/* Interests Section */
+.interestsBox{
+    padding:50px;
+    width: 90%;
+    text-align: center;
+}
+
+
+/* Footer */
+.footerBox {
+    padding: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.footerBox > img{
+    padding: 0px 20px;
+}
